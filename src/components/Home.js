@@ -5,9 +5,10 @@ import logo from '../asserts/logo.png';
 import prize from '../asserts/2.png';
 import machines from '../asserts/3.png';
 import './Home.css';
+import Footer from './Footer';
 const Home = () => {
     return (
-        <div>
+        <div className='home-style'>
             <div className='mb-5'>
                 <Container>
                     <div className='banner'>
@@ -62,6 +63,7 @@ const Home = () => {
                     </div>
                 </Container>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

@@ -1,6 +1,9 @@
+.home-style{
+    background-color: rgba(245, 238, 171, 0.421);
+}
 .img-style{
     margin-top: 130px;
-    width: 90%;
+    width: 95%;
     height: 89%;
 }
 .details-heading{
@@ -12,4 +15,12 @@
 .hr-style{
     border: 1px solid red;
     width: 100%;
+}
+
+
+@media screen and (max-width: 576px) {
+    .img-style{
+        margin-top: 50px;
+    }
+    
 }
