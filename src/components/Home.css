@@ -3,3 +3,13 @@
     width: 90%;
     height: 89%;
 }
+.details-heading{
+    font-size: 15px;
+}
+.details-section{
+    margin-top: 80px;
+}
+.hr-style{
+    border: 1px solid red;
+    width: 100%;
+}
